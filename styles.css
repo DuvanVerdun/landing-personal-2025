@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    background-color: #7fd;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.about {
+    width: 60vw;
+    background-color: #444;
+    color: #fff;
+    padding: 30px;
+    border-radius: 32px;
+    display: flex;
+}
+
+.about .img {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px
+}
+
+.about .img img {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.info {
+    width: 50%;
+}
+
+.about h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.proyects {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 60vw;
+background-color: #444;
+padding: 30px;
+border-radius: 32px;
+color: #fff;
+}
+
+.proyects h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.edge-x {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edge-x article {
+    width: 47%;
+}
+
+.edge-x article h3 {
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+footer {
+    width: 100vw;
+    height: 100px;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
