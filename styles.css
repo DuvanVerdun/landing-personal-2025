@@ -97,3 +97,12 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+#cambiarColorBtn {
+    padding: 10px 15px;
+    background-color: #7fd;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+}

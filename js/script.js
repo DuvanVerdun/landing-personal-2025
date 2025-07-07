@@ -1,4 +1,4 @@
-
+/*
 // Variables
 let nombre = "Duván";
 const edad = 15;
@@ -38,4 +38,50 @@ const button = document.getElementById("cambiarColorBtn");
 
 button.addEventListener("click", () => {
     document.body.style.backgroundColor = "#"+Math.floor(Math.random()*16777215).toString(16);
+}); */
+
+
+
+
+// Arrays y bucles
+
+
+
+let hobbies = ["Programar", "Entrenar", "Leer", "Escuchar música"];
+
+
+for (let i = 0; i < hobbies.length; i++) {
+    console.log("Hobby #" + (i+1) + ": " + hobbies[i]);
+};
+
+hobbies.forEach((hobby, index) => {
+    console.log(`Hobby ${index + 1}: ${hobby}`);
+});
+
+
+// Objetos
+
+
+
+let persona = {
+    nombre: "Duván",
+    edad: 15,
+    esProgramador: true
+};
+
+console.log("Nombre:", persona.nombre);
+console.log("Edad", persona.edad);
+console.log("¿Es programador?", persona.esProgramador);
+
+
+// Dinámico con arrays
+
+
+
+const listaHobbies = document.getElementById("listaHobbies");
+
+hobbies.forEach((hobby) => {
+    let li = document.createElement("li");
+    li.textContent = hobby;
+    listaHobbies.appendChild(li);
 });
